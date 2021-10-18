@@ -25,11 +25,11 @@ pipelineJob("${testFolder.name}/hello-world") {
                                 spec:
                                 containers:
                                 - name: ubuntu
-                                    image: ubuntu
-                                    command:
-                                    - sleep
-                                    args:
-                                    - infinity
+                                  image: ubuntu
+                                  command:
+                                  - sleep
+                                  args:
+                                  - infinity
                             '''
                         }
                     }

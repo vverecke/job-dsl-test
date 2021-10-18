@@ -36,7 +36,7 @@ pipelineJob("${testFolder.name}/hello-world") {
                     stages {
                         stage('Hello World') {
                             steps {
-                                container(hello-world) {
+                                container(ubuntu) {
                                     sh('echo Hello World!!')
                                 }
                             }
